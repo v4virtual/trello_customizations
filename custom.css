@@ -1,1 +1,26 @@
-.list { background-color:pink }
+a.list-card-title.js-card-name {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+div.list-card-details {
+    overflow: hidden;
+    padding: 6px;
+    padding-bottom: 1px;
+}
+
+.list-card {
+    overflow: hidden;
+}
+
+.list-card-labels .card-label {
+    font-size: .7142857142857143rem;
+    line-height: 1.142857142857143rem;
+    height: auto;
+    padding: 0 0.5em;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .1) 0 0 5px, rgba(0, 0, 0, .2) 0 0 2px;
+    width: auto;
+    display: inline;
+}
+
