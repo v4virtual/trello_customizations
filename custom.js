@@ -15,6 +15,11 @@ $('.list').each(function(i, el) {
         case "Today":
             $(el).css("background-color", "lightgoldenrodyellow");
             break;   
+        case "Done":
+            $(el).css("background-color", "seagreen");
+            $(el).find(".list-header-name").css("color", "white");
+            $(el).find(".open-card-composer").css("color", "white");
+            break; 
         default:
             $(el).css("background-color", "#E2E4E6");
     }
