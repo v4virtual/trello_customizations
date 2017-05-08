@@ -15,6 +15,9 @@ $('.list').each(function(i, el) {
         case "Today":
             $(el).css("background-color", "lightgoldenrodyellow");
             break;   
+        case "Doing":
+            $(el).css("background-color", "lightcyan");
+            break;   
         case "Done":
             $(el).css("background-color", "seagreen");
             $(el).find(".list-header-name").css("color", "white");
