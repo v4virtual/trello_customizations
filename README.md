@@ -1,7 +1,13 @@
 # trello_customizations
+This will extend the Trello pages with the following customizations:
+- the labels will contain the label names on the cards
+- you can customize the color of the lists:
+![Screenshot](https://trello-attachments.s3.amazonaws.com/5922c5c711fde96f62a7af6b/5922c6180f3dde458b1eeab3/6c79d5c2b7d6f2237108cdcb26cb083a/image.png)
+
+
 Use it with the [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld) chrome extension
 Configure the extension:
-1. Go to settings and jquery to libraries: https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
+1. Go to settings and add jquery to libraries: https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 2. Crate a new Site and add the Trello domain url: https://trello.com
 3. Add the following code to the JS section:
 
