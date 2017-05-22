@@ -9,9 +9,6 @@ $('.list').each(function(i, el) {
             $(el).find(".list-header-name").css("color", "white");
             $(el).find(".open-card-composer").css("color", "white");
             break;
-        case "Ideas":
-            $(el).css("background-color", "palegreen");
-            break;
         case "Today":
             $(el).css("background-color", "lightgoldenrodyellow");
             break;   
