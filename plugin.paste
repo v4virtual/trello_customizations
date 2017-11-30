@@ -1,0 +1,24 @@
+//Paste this as the JS code for the "user javascript and css" extension for the page you customize... don't forget to edit urls
+
+//Load the JS from Github
+	  var firstScript = document.getElementsByTagName('script')[0],
+	      js = document.createElement('script');
+	  js.src = 'https://cdn.rawgit.com/v4virtual/trello_customizations/master/custom.js';
+	  js.onload = function () {
+	  	//you can call some functions from the imported file here
+	  };
+	  firstScript.parentNode.insertBefore(js, firstScript);
+
+//Load the CSS from Github
+	var cssId = 'TrelloCustomCss';  // you could encode the css path itself to generate id..
+	if (!document.getElementById(cssId))
+	{
+	    var head  = document.getElementsByTagName('head')[0];
+	    var link  = document.createElement('link');
+	    link.id   = cssId;
+	    link.rel  = 'stylesheet';
+	    link.type = 'text/css';
+	    link.href = 'https://cdn.rawgit.com/v4virtual/trello_customizations/master/custom.css';
+	    link.media = 'all';
+	    head.appendChild(link);
+	}
