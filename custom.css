@@ -24,3 +24,7 @@ div.list-card-details {
     display: inline;
 }
 
+/* Custom Fields colors */
+span.badge-text {
+    color: crimson;
+}
