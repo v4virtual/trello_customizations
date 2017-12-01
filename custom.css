@@ -25,6 +25,6 @@ div.list-card-details {
 }
 
 /* Custom Fields colors */
-span.badge-text {
+.badge-text {
     color: crimson;
 }
