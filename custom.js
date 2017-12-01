@@ -24,3 +24,6 @@ $('.list').each(function(i, el) {
             $(el).css("background-color", "#E2E4E6");
     }
 });
+
+
+$('.badge-text').each(function(i, el) { $(el).css("background-color", "blue") })
