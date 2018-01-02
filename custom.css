@@ -20,7 +20,7 @@ div.list-card-details {
     padding: 0 0.5em;
     text-align: center;
     text-shadow: rgba(0, 0, 0, .1) 0 0 5px, rgba(0, 0, 0, .2) 0 0 2px;
-    width: auto;
+    max-width: 100%;
     display: inline;
 }
 
