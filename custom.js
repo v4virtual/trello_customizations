@@ -45,5 +45,5 @@ $('.badge-text').each(function(i, el2) {
             break;        
         default:
             $(el).css("background-color", "white");
-    
+    }
 })
