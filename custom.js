@@ -32,18 +32,18 @@ $('.badge-text').each(function(i, el2) {
             $(el2).css("color", "white");
             break;
         case "U: ASAP":
-            $(el).css("background-color", "lightred");
+            $(el2).css("background-color", "lightred");
             break;   
         case "U: SOON":
-            $(el).css("background-color", "orange");
+            $(el2).css("background-color", "orange");
             break;   
         case "U: REGULAR":
-            $(el).css("background-color", "lightblue");
+            $(el2).css("background-color", "lightblue");
             break;   
         case "U: LATER":
-            $(el).css("background-color", "lightgrey");
+            $(el2).css("background-color", "lightgrey");
             break;        
         default:
-            $(el).css("background-color", "white");
+            $(el2).css("background-color", "white");
     }
 })
