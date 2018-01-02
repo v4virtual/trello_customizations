@@ -25,15 +25,6 @@ $('.list').each(function(i, el) {
     }
 });
 
-<select id="8Ax2PlYW-BBNlXU" autofocus="">
-  <option value="" selected="">(none)</option>
-      <option value="YMYGf2">NOW!</option>
-      <option value="efVR4j">ASAP</option>
-      <option value="YWPCfZ">SOON</option>
-      <option value="xaP8nG">REGULAR</option>
-      <option value="BqpqN7">LATER</option>
-      <option value="Msou5k">SOMEDAY</option>
-</select>
 $('.badge-text').each(function(i, el2) { 
     switch ($(el2).text()) {
         case "U: NOW!":
