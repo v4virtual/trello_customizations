@@ -26,7 +26,8 @@ $('.list').each(function(i, el) {
 });
 
 $('.badge-text').each(function(i, el2) { 
-    switch ($(el2).text()) {
+    console.log($(el2).text());
+    switch ($(el2).text()) {         
         case "U: NOW!":
             $(el2).css("background-color", "crimson");
             $(el2).css("color", "white");
