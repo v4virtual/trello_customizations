@@ -24,27 +24,3 @@ $('.list').each(function(i, el) {
             $(el).css("background-color", "#E2E4E6");
     }
 });
-
-$('.badge-text').each(function(i, el2) { 
-    console.log($(el2).text());
-    switch ($(el2).text()) {         
-        case "U: NOW!":
-            $(el2).css("background-color", "crimson");
-            $(el2).css("color", "white");
-            break;
-        case "U: ASAP":
-            $(el2).css("background-color", "lightred");
-            break;   
-        case "U: SOON":
-            $(el2).css("background-color", "orange");
-            break;   
-        case "U: REGULAR":
-            $(el2).css("background-color", "lightblue");
-            break;   
-        case "U: LATER":
-            $(el2).css("background-color", "lightgrey");
-            break;        
-        default:
-            $(el2).css("background-color", "white");
-    }
-})
