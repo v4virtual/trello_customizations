@@ -25,5 +25,34 @@ $('.list').each(function(i, el) {
     }
 });
 
-
-$('.badge-text').each(function(i, el) { $(el).css("background-color", "blue") })
+<select id="8Ax2PlYW-BBNlXU" autofocus="">
+  <option value="" selected="">(none)</option>
+      <option value="YMYGf2">NOW!</option>
+      <option value="efVR4j">ASAP</option>
+      <option value="YWPCfZ">SOON</option>
+      <option value="xaP8nG">REGULAR</option>
+      <option value="BqpqN7">LATER</option>
+      <option value="Msou5k">SOMEDAY</option>
+</select>
+$('.badge-text').each(function(i, el2) { 
+    switch ($(el2).text()) {
+        case "U: NOW!":
+            $(el2).css("background-color", "crimson");
+            $(el2).css("color", "white");
+            break;
+        case "U: ASAP":
+            $(el).css("background-color", "lightred");
+            break;   
+        case "U: SOON":
+            $(el).css("background-color", "orange");
+            break;   
+        case "U: REGULAR":
+            $(el).css("background-color", "lightblue");
+            break;   
+        case "U: LATER":
+            $(el).css("background-color", "lightgrey");
+            break;        
+        default:
+            $(el).css("background-color", "white");
+    
+})
