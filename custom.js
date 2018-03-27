@@ -24,3 +24,5 @@ $('.list').each(function(i, el) {
             $(el).css("background-color", "#E2E4E6");
     }
 });
+
+$('.list-wrapper').each(function(i, el) { $(el).css("width", "13%") })
