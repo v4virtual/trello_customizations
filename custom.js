@@ -25,4 +25,7 @@ $('.list').each(function(i, el) {
     }
 });
 
-$('.list-wrapper').each(function(i, el) { $(el).css("width", "13%") })
+
+if $('.board-header-btn-text').html() = "Stuff to Do" {
+    $('.list-wrapper').each(function(i, el) { $(el).css("width", "13%") })
+}
