@@ -9,6 +9,10 @@ div.list-card-details {
     padding-bottom: 1px;
 }
 
+.js-list-content:nth-child(3){
+	background-color: green !important
+}
+
 .list-card {
     overflow: hidden;
 }
