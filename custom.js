@@ -3,7 +3,7 @@
 $('.list').each(function(i, el) { $(el).css("background-color", "pink") })
 
 $('.list').each(function(i, el) {
-    switch ($(el).find("h2").text()) {
+    switch ($(el).find(".list-header-name").text()) {
         case "Urgent":
             $(el).css("background-color", "crimson");
             $(el).find(".list-header-name").css("color", "white");
